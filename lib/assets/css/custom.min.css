@@ -1,5 +1,7 @@
 body {
-    padding-top:10px
+    padding-top:10px;
+    background-color: rgb(187, 206, 218);
+    background-image:url('/lib/img/stu2.png');
 }
 pre {
     background:#f7f7f9
@@ -11,6 +13,17 @@ pre {
     body>.navbar-transparent .navbar-nav>.open>a {
         box-shadow:none
     }
+}
+.float-button {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    bottom: 60px;
+    right: 0px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
 }
 #home, #help {
     font-size:0.9rem
